@@ -6,6 +6,11 @@
     <RootNamespace>folder_maker</RootNamespace>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LumenWorksCsvReader" Version="4.0.0" />
+  </ItemGroup>
 
 </Project>
